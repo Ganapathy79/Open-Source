@@ -8,7 +8,7 @@ class Student {
 
     public Student(String name, String id, double marks) {
         this.name = name;
-        this.id = id;1
+        this.id = id;
         this.marks = marks;
     }
 
