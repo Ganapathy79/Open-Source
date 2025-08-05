@@ -94,8 +94,5 @@ public class StudentGradeManager {
                 break;
             }
         }
-        if (!found) System.out.println("Student not found.");
-        System.err.println("uio");
-          System.err.println("Ganapathy");
     }
 }
