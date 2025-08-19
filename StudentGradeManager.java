@@ -40,7 +40,9 @@ public class StudentGradeManager {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
+            
+            // consume newline
 
             switch (choice) {
                 case 1:
@@ -97,3 +99,4 @@ public class StudentGradeManager {
         if (!found) System.out.println("Student not found.");
     }
 }
+
